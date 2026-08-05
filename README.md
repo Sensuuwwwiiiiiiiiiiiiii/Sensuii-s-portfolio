@@ -3,161 +3,192 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sensuii | Portfolio</title>
+    <title>John Patrick Garcia | Portfolio</title>
     <link rel="stylesheet" href="Index.css">
 </head>
 <body>
-    <nav class="mobile-nav">
-        <details>
-            <summary>Menu</summary>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#experience">Experience</a>
-            <a href="#skills">Skills</a>
-            <a href="#references">References</a>
-        </details>
-    </nav>
-    <div class="layout">
-        <aside class="sidebar">
-            <div class="profile-card">
-                <img src="sensuii.jpg" alt="John Patrick Garcia" class="profile-photo">
-                <h1>John Patrick Garcia</h1>
-                <p class="role">IT Support & Web Developer</p>
-                <p class="about-small">Hands-on with systems, web tools, and support tasks that help people work better.</p>
+    <div class="page-wrap">
+        <header class="topbar">
+            <div class="brand">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
+                    <path d="M12 0.297C5.373 0.297 0 5.67 0 12.297c0 5.302 3.438 9.8 8.205 11.387.6.111.82-.261.82-.58 0-.287-.011-1.244-.017-2.249-3.338.726-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.757-1.333-1.757-1.091-.746.083-.731.083-.731 1.207.085 1.84 1.24 1.84 1.24 1.072 1.836 2.811 1.306 3.495.999.108-.776.42-1.307.763-1.607-2.665-.304-5.467-1.333-5.467-5.93 0-1.31.468-2.381 1.236-3.221-.124-.303-.536-1.524.117-3.176 0 0 1.008-.323 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.006 2.047.138 3.006.404 2.291-1.553 3.297-1.23 3.297-1.23.655 1.652.243 2.873.12 3.176.77.84 1.235 1.911 1.235 3.221 0 4.61-2.807 5.624-5.479 5.921.431.371.815 1.102.815 2.222 0 1.604-.015 2.896-.015 3.289 0 .321.216.697.825.578C20.565 22.092 24 17.597 24 12.297 24 5.67 18.627.297 12 .297z"/>
+                </svg>
             </div>
+            <nav class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#services">Services</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#favorite-movie">Favorite Movie</a>
+            </nav>
+            <a href="#contact" class="top-btn">Let’s Talk</a>
+        </header>
 
-            <div class="sidebar-panel">
-                <h2>Contact</h2>
-                <p><strong>Phone</strong><br>09086976195</p>
-                <p><strong>Email</strong><br>jpatricklgarcia@gmail.com</p>
-                <p><strong>Location</strong><br>New Magdalena Homes Phase 3, Lot 3 Blk 6, Purok 6, Sto. Tomas, Subic, Zambales</p>
-            </div>
-
-            <div class="sidebar-panel">
-                <h2>Education</h2>
-                <div class="timeline-item">
-                    <strong>2022 - 2025</strong>
-                    <p>BS Information Technology,<br>Jesus Reigns Christian College</p>
-                </div>
-                <div class="timeline-item">
-                    <strong>2019 - 2021</strong>
-                    <p>Humanities & Social Sciences,<br>Jesus Reigns Christian Academy</p>
-                </div>
-                <div class="timeline-item">
-                    <strong>2018 - 2019</strong>
-                    <p>Mariano Marcos Memorial High School</p>
-                </div>
-            </div>
-
-            <div class="sidebar-panel">
-                <h2>Languages</h2>
-                <ul class="list">
-                    <li>English</li>
-                    <li>Filipino</li>
-                </ul>
-            </div>
-        </aside>
-
-        <main class="content">
-            <section class="hero-card" id="home">
-                <p class="eyebrow">Portfolio</p>
-                <h2>John Patrick Garcia</h2>
-                <p>Practical IT support and web development experience with a focus on hardware repair, software setup, and clear communication.</p>
-                <div class="hero-grid">
-                    <div>
-                        <h3>Core focus</h3>
-                        <p>Supporting users, troubleshooting systems, and building dependable website experiences.</p>
+        <main>
+            <section class="hero" id="home">
+            <div class="hero-copy">
+                <span class="intro-label">I am John Patrick</span>
+                <h1>Front-End<br>Developer & Designer</h1>
+                <p>Blending thoughtful UI design with clean, responsive development to create websites that look great and perform flawlessly.</p>
+                <div class="hero-actions">
+                    <a href="#contact" class="primary-btn">Download CV</a>
+                    <div class="social-links">
+                        <a href="#">LinkedIn</a>
+                        <a href="#">GitHub</a>
                     </div>
-                    <div>
-                        <h3>What I enjoy</h3>
-                        <p>Building websites, fixing hardware, learning new tools, and helping teams work smoothly.</p>
-                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="sensuii.jpg" alt="John Patrick Garcia" loading="lazy">
+            </div>
+        </section>
+
+        <section class="section services" id="services">
+                <div class="section-header">
+                    <h2>Services</h2>
+                    <p>Designing clean scalable responsive websites</p>
+                </div>
+                <div class="services-grid">
+                    <article class="service-card">
+                        <h3>UI/UX Website Design</h3>
+                        <p>Clean, user-focused layouts with clear structure, smooth navigation, and strong visual hierarchy.</p>
+                        <div class="tag-list">
+                            <span>Modern layouts</span>
+                            <span>Responsive design</span>
+                            <span>Responsive Web Design</span>
+                            <span>Component-Based Design</span>
+                        </div>
+                    </article>
+                    <article class="service-card">
+                        <h3>Frontend Development</h3>
+                        <p>Responsive interfaces using HTML, CSS, and JavaScript for clean, consistent, reliable performance.</p>
+                        <div class="tag-list">
+                            <span>Clean HTML/CSS</span>
+                            <span>Smooth interactions</span>
+                        </div>
+                    </article>
+                    <article class="service-card">
+                        <h3>Performance & Responsiveness</h3>
+                        <p>Fast, mobile-first websites optimized for speed, accessibility, and dependable performance.</p>
+                        <div class="tag-list">
+                            <span>Speed optimization</span>
+                            <span>Asset efficiency</span>
+                        </div>
+                    </article>
+                    <article class="service-card">
+                        <h3>WordPress Implementation</h3>
+                        <p>Lightweight WordPress setups with easy updates, fast loading, and scalable, clean, customizable layouts.</p>
+                        <div class="tag-list">
+                            <span>Theme setup</span>
+                            <span>Easy management</span>
+                        </div>
+                    </article>
                 </div>
             </section>
 
-            <section class="card-panel" id="about">
-                <h2>About Me</h2>
-                <p>I am motivated by solving real problems, improving systems, and learning through hands-on work. I enjoy combining technical troubleshooting with practical web and IT skills to support both people and processes.</p>
-                <p>Whether I am setting up a new workstation, repairing a computer, or building a simple website, I focus on being reliable, careful, and easy to work with. I want my work to make daily tasks smoother for others and help teams move faster.</p>
-                <p>I also enjoy learning new tools and learning from every project. This helps me grow as a professional and gives me confidence to take on new challenges in IT and web development.</p>
-                <div class="list-columns">
-                    <div>
-                        <h3>Strengths</h3>
-                        <ul class="list">
-                            <li>Problem solving</li>
-                            <li>Technical troubleshooting</li>
-                            <li>System setup</li>
-                            <li>Attention to detail</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h3>Interests</h3>
-                        <ul class="list">
-                            <li>Web development</li>
-                            <li>Hardware repair</li>
-                            <li>Process improvement</li>
-                            <li>Learning new technologies</li>
-                        </ul>
-                    </div>
+            <section class="section about" id="about">
+                <div class="section-header">
+                    <h2>About Me</h2>
+                    <p>I�m a front-end developer and designer passionate about crafting clean, intuitive, and responsive digital experiences. I focus on turning ideas into seamless interfaces by understanding user needs, designing thoughtful UI layouts, and ensuring smooth interactions across devices.</p>
+                </div>
+                <div class="approach-grid">
+                    <div class="approach-card"><span>01</span><p>Understand users & goals</p></div>
+                    <div class="approach-card"><span>02</span><p>Create clean UI layouts</p></div>
+                    <div class="approach-card"><span>03</span><p>Responsive experiences</p></div>
+                </div>
+                <div class="stats-row">
+                    <div><strong>02+</strong><span>Years Of Experience</span></div>
+                    <div><strong>15+</strong><span>Projects Completed</span></div>
+                    <div><strong>05+</strong><span>Clients Served</span></div>
                 </div>
             </section>
 
-            <section class="card-panel" id="experience">
-                <h2>Experience</h2>
-                <div class="experience-item">
-                    <h3>IT Intern</h3>
-                    <span>February 2025 – June 2025 · CMT Holdings</span>
-                    <ul class="list">
-                        <li>Built PCs, repaired CPUs, installed Windows 11</li>
-                        <li>Documented workflows and supported team meetings</li>
-                        <li>Backed up emails and deployed Microsoft 365</li>
-                        <li>Assisted accounting with data encoding and system support</li>
-                    </ul>
+            <section class="section skills" id="skills">
+                <div class="section-header">
+                    <h2>Skills</h2>
+                    <p>Crafting seamless UI/UX and clean code</p>
                 </div>
-                <div class="experience-item">
-                    <h3>Assistant Mechanic</h3>
-                    <span>Vehicle maintenance support</span>
-                    <ul class="list">
-                        <li>Collected tools and supported repair tasks</li>
-                        <li>Changed oil, brakes, and tires</li>
-                        <li>Performed vulcanizing work</li>
-                    </ul>
-                </div>
-                <div class="experience-item">
-                    <h3>Room Attendant</h3>
-                    <span>Subic Bay Yacht Club (SBYC), 1 Month on Call</span>
-                    <ul class="list">
-                        <li>Housekeeping and room cleaning</li>
-                        <li>Maintained bedding and polished floors</li>
-                    </ul>
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <h3>Core Skills</h3>
+                        <div class="skill-tags">
+                            <span>UI/UX layout</span>
+                            <span>Frontend Dev</span>
+                            <span>Responsive Web Design</span>
+                            <span>Component-Based Design</span>
+                        </div>
+                    </article>
+                    <article class="skill-card">
+                        <h3>Frontend Tech</h3>
+                        <div class="skill-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JS</span>
+                            <span>C++</span>
+                        </div>
+                    </article>
+                    <article class="skill-card">
+                        <h3>Design Tools</h3>
+                        <div class="skill-tags">
+                            <span>Canva</span>
+                            <span>Photoshop</span>
+                            <span>Capcut</span>
+                        </div>
+                    </article>
+                    <article class="skill-card">
+                        <h3>Tools & Interaction</h3>
+                        <div class="skill-tags">
+                            <span>GitHub</span>
+                            <span>Netlify</span>
+                            <span>GSAP</span>
+                            <span>UI interactions</span>
+                        </div>
+                    </article>
                 </div>
             </section>
 
-            <section class="card-panel" id="skills">
-                <h2>Skills</h2>
-                <div class="skill-grid">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>PHP</span>
-                    <span>Hardware Repair</span>
-                    <span>Microsoft 365</span>
-                    <span>Communication</span>
+            <section class="section favorite-movie" id="favorite-movie">
+                <div class="section-header">
+                    <h2>Favorite Movie</h2>
+                    <p>A visual collection from one of my all-time favorite films.</p>
+                </div>
+                <div class="movie-gallery">
+                    <article class="movie-card">
+                        <img src="movie1.jpg" alt="Favorite movie scene 1">
+                        <p>Iconic scene one</p>
+                    </article>
+                    <article class="movie-card">
+                        <img src="movie2.jpg" alt="Favorite movie scene 2">
+                        <p>Memorable character moment</p>
+                    </article>
+                    <article class="movie-card">
+                        <img src="movie3.jpg" alt="Favorite movie scene 3">
+                        <p>Stylish cinematic shot</p>
+                    </article>
+                    <article class="movie-card">
+                        <img src="movie4.jpg" alt="Favorite movie scene 4">
+                        <p>Behind the scenes feel</p>
+                    </article>
                 </div>
             </section>
 
-            <section class="card-panel references-panel" id="references">
-                <h2>References</h2>
-                <div class="reference-grid">
-                    <div>
-                        <strong>Padilla, Ralph</strong>
-                        <p>IT Manager · CMT Holdings</p>
-                        <p>09171443684</p>
-                        <p>ralp.padilla@thecmtholdings.com</p>
+            <section class="section contact" id="contact">
+                <div class="section-header">
+                    <h2>Contact</h2>
+                    <p>Reach out for collaborations, freelance work, or just to say hello.</p>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <h3>Email</h3>
+                        <p><a href="mailto:jpatricklgarcia@gmail.com">jpatricklgarcia@gmail.com</a></p>
                     </div>
-                    <div>
-                        <strong>Mapoy, Karlo Val</strong>
-                        <p>IT Supervisor · CMT Holdings</p>
-                        <p>09453207779</p>
+                    <div class="contact-card">
+                        <h3>Phone</h3>
+                        <p><a href="tel:+639086976195">0908 697 6195</a></p>
+                    </div>
+                    <div class="contact-card">
+                        <h3>Location</h3>
+                        <p>Subic, Zambales, Philippines</p>
                     </div>
                 </div>
             </section>
@@ -165,341 +196,3 @@
     </div>
 </body>
 </html>
-
-
-:root {
-    --surface: #111827;
-    --surface-soft: #1f2937;
-    --text: #e2e8f0;
-    --text-muted: #94a3b8;
-    --primary: #60a5fa;
-    --primary-soft: #0f172a;
-    --border: #334155;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-html,
-body {
-    margin: 0;
-    min-height: 100%;
-}
-
-body {
-    font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-    background: linear-gradient(180deg, #020617 0%, #111827 100%);
-    color: var(--text);
-}
-
-.layout {
-    display: grid;
-    grid-template-columns: 320px 1fr;
-    gap: 24px;
-    max-width: 1180px;
-    margin: 0 auto;
-    padding: 28px;
-}
-
-.sidebar,
-.content {
-    display: grid;
-    gap: 22px;
-}
-
-.profile-card,
-.sidebar-panel,
-.card-panel,
-.hero-card {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 28px;
-    padding: 28px;
-    box-shadow: 0 18px 36px rgba(0, 0, 0, 0.25);
-}
-
-.profile-card {
-    text-align: center;
-}
-
-.profile-photo {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 6px solid var(--surface);
-    box-shadow: 0 20px 40px rgba(15, 23, 42, 0.1);
-    margin-bottom: 20px;
-    display: block;
-}
-
-.profile-card h1 {
-    margin: 0;
-    font-size: 1.9rem;
-    letter-spacing: -0.02em;
-}
-
-.role {
-    margin: 10px 0 0;
-    color: var(--primary);
-    font-weight: 700;
-}
-
-.about-small {
-    margin: 16px 0 0;
-    color: var(--text-muted);
-    line-height: 1.75;
-}
-
-.sidebar-panel h2,
-.hero-card h2,
-.card-panel h2 {
-    margin: 0 0 18px;
-    font-size: 1.2rem;
-}
-
-.sidebar-panel p,
-.timeline-item p,
-.hero-card p,
-.card-panel p,
-.experience-item span,
-.reference-grid p {
-    margin: 0;
-    color: var(--text-muted);
-    line-height: 1.8;
-}
-
-.timeline-item {
-    margin-bottom: 16px;
-}
-
-.timeline-item strong,
-.experience-item h3,
-.reference-grid strong,
-.hero-card h3 {
-    display: block;
-    color: var(--text);
-    margin-bottom: 8px;
-}
-
-.list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.list li {
-    position: relative;
-    padding-left: 16px;
-    margin-bottom: 12px;
-    color: var(--text);
-}
-
-.list li::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 8px;
-    width: 7px;
-    height: 7px;
-    border-radius: 50%;
-    background: var(--primary);
-}
-
-.eyebrow {
-    margin: 0 0 12px;
-    color: var(--primary);
-    font-size: 0.78rem;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    font-weight: 700;
-}
-
-.hero-card h2 {
-    margin: 0;
-    font-size: clamp(2rem, 3vw, 2.8rem);
-}
-
-.hero-grid {
-    display: grid;
-    gap: 18px;
-}
-
-.hero-grid h3 {
-    margin: 0 0 10px;
-    font-size: 1rem;
-}
-
-.hero-grid div {
-    background: var(--surface-soft);
-    border-radius: 18px;
-    padding: 18px;
-}
-
-.card-panel {
-    display: grid;
-    gap: 18px;
-}
-
-.list-columns {
-    display: grid;
-    gap: 18px;
-}
-
-.list-columns h3 {
-    margin: 0 0 12px;
-    font-size: 1rem;
-}
-
-.experience-item {
-    display: grid;
-    gap: 12px;
-    padding: 18px;
-    background: var(--surface-soft);
-    border-radius: 20px;
-}
-
-.experience-item span {
-    color: var(--text-muted);
-}
-
-.skill-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 12px;
-}
-
-.skill-grid span {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 14px 16px;
-    border-radius: 999px;
-    background: var(--surface-soft);
-    color: var(--text);
-    font-weight: 600;
-}
-
-.references-panel {
-    padding-bottom: 24px;
-}
-
-.reference-grid {
-    display: grid;
-    gap: 16px;
-}
-
-.reference-grid > div {
-    padding: 18px;
-    background: var(--surface-soft);
-    border-radius: 18px;
-}
-
-@media (max-width: 1000px) {
-    .mobile-nav {
-        display: block;
-    }
-
-    .layout {
-        grid-template-columns: 1fr;
-        padding: 20px;
-    }
-
-    .sidebar {
-        order: 2;
-    }
-
-    .content {
-        order: 1;
-    }
-
-    .hero-card,
-    .card-panel,
-    .sidebar-panel,
-    .profile-card {
-        padding: 24px;
-    }
-
-    .hero-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .skill-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
-.mobile-nav {
-    display: none;
-    background: rgba(17, 24, 39, 0.96);
-    color: var(--text);
-    padding: 12px 20px;
-    border-bottom: 1px solid rgba(148, 163, 184, 0.18);
-}
-
-.mobile-nav details {
-    cursor: pointer;
-}
-
-.mobile-nav summary {
-    list-style: none;
-    font-weight: 700;
-    font-size: 0.95rem;
-}
-
-.mobile-nav summary::-webkit-details-marker {
-    display: none;
-}
-
-.mobile-nav a {
-    display: block;
-    margin: 10px 0 0;
-    color: var(--text);
-    text-decoration: none;
-    padding: 8px 0;
-    border-top: 1px solid rgba(148, 163, 184, 0.18);
-}
-
-.mobile-nav a:first-of-type {
-    margin-top: 12px;
-    border-top: none;
-}
-
-.mobile-nav a:hover {
-    color: var(--primary);
-}
-
-@media (max-width: 660px) {
-    body {
-        font-size: 0.95rem;
-    }
-
-    .layout {
-        padding: 14px;
-    }
-
-    .profile-photo {
-        width: 130px;
-        height: 130px;
-    }
-
-    .hero-card,
-    .card-panel,
-    .sidebar-panel,
-    .profile-card {
-        padding: 20px;
-    }
-
-    .hero-card h2 {
-        font-size: 2rem;
-    }
-
-    .skill-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .reference-grid {
-        grid-template-columns: 1fr;
-    }
-}
